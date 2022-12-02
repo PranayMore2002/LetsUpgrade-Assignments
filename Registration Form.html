@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1 align="center">Course Enrollment Form</h1>
+    <form>
+        <hr>
+        <div>
+            <label name="User Details">User Details*</label><br><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="Title" id="Title" value="Select Title" >
+                <option value="select">select Title</option>
+                <option value="M/S">M/S</option>
+                <option value="Mr.">Mr.</option>
+                <option value="Ms.">Ms.</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="First Name" placeholder="First Name*" maxlength="10" size="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="Middle Name" placeholder="Middle Name*" maxlength="10"size="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="Last Name" placeholder="Last Name*" maxlength="10"size="40"><br><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>Enter Username</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="username" placeholder="abcdefg@123" size="40" maxlength="15"><br><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="birthday">D.O.B:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="date" id="birthday" name="birthday"><br><br><br>
+        </div>
+        <br><hr><br><br>
+        <div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>Gender</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="Gender" value="Male">Male &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="Gender" value="Female">Female&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="Gender" value="other">Other <br><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Hobbies">Hobbies</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" value="Sports">Sports&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" value="Singing">Singing&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" value="Dancing">Dancing&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" value="Reading">Reading&nbsp;&nbsp;&nbsp;&nbsp;<br><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>Upload Profile Picture</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input id="image" type="file" name="profile_photo" placeholder="Photo" required="" capture>
+        </div><br><hr><br><br>
+        <div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="">Address*</label><br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Flat/Room no*" Maxlength="8" name="Address 1">&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Building/Area Name*" Maxlength="25" name="Address 2">&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Street Name*" Maxlength="20" name="Address 3">&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Landmark*" Maxlength="25" name="Address 4">&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Village Name*" Maxlength="25" name="Address 5">&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="City" id="City">
+                <option value="select">City</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Pune">Pune</option>
+                <option value="Nashik">Nashik</option>
+                <option value="Kolhapur">Kolhapur</option>
+                <option value="Dhule">Dhule</option>
+                <option value="Amravati">Amravati</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="State" id="State">
+                <option value="Select">State</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Jaipur">Jaipur</option>
+                <option value="Bengluru">Bengluru</option>
+                <option value="Tamilnadu">Tamilnadu</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Country*" Maxlength="25" name="Address 6">&nbsp;&nbsp;&nbsp;&nbsp;
+        </div><br><br><hr><br>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            LetsUpgrade Courses&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="Courses" id="Courses">
+                <option value="select">Courses</option>
+                <option value="FS web Development">FS web Development</option>
+                <option value="FS Data Science">FS Data Science</option>
+                <option value="HTML Bootcamp">HTML Bootcamp</option>
+                <option value="CSS Bootcamp">CSS Bootcamp</option>
+                <option value="JS Bootcamp">JS Bootcamp</option>
+                <option value="React JS">React JS</option>
+            </select><br><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>Current Designation</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="Designation">Student&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="Designation">Working Professional&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Job Description"><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Enter Linkdin Profile Link Here &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Linkdin Profile Link"><br><br><hr>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Why do you want to learn those courses?</h3>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Answer:-&nbsp;&nbsp;&nbsp;<textarea Placeholder="Answer here..."> </textarea>
+        </div><hr>  
+        <div>
+            <h1 align="center">
+                <input type="submit"  Value="Submit">&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="Reset"  Value="Clear">
+            </h1>
+        </div>
+    </form>
+</body>
+</html>
